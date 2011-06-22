@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		256AC3DA0F4B6AC300CF3369 /* TestScreensAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* TestScreensAppDelegate.m */; };
+		256AC3DA0F4B6AC300CF3369 /* DisplayInfoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* DisplayInfoAppDelegate.m */; };
 		556C137F13B216D8003A68AA /* DisplayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 556C137E13B216D8003A68AA /* DisplayInfo.m */; };
 		556C138113B216EB003A68AA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556C138013B216EB003A68AA /* IOKit.framework */; };
 		556C139F13B2181E003A68AA /* DisplayInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556C139E13B2181E003A68AA /* DisplayInfoController.m */; };
@@ -22,8 +22,8 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		256AC3D80F4B6AC300CF3369 /* TestScreensAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestScreensAppDelegate.h; sourceTree = "<group>"; };
-		256AC3D90F4B6AC300CF3369 /* TestScreensAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScreensAppDelegate.m; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* DisplayInfoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayInfoAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* DisplayInfoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayInfoAppDelegate.m; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* DisplayInfo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayInfo_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -53,12 +53,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				556C137D13B216D8003A68AA /* DisplayInfo.h */,
-				556C137E13B216D8003A68AA /* DisplayInfo.m */,
-				256AC3D80F4B6AC300CF3369 /* TestScreensAppDelegate.h */,
-				256AC3D90F4B6AC300CF3369 /* TestScreensAppDelegate.m */,
+				256AC3D80F4B6AC300CF3369 /* DisplayInfoAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* DisplayInfoAppDelegate.m */,
 				556C139D13B2181E003A68AA /* DisplayInfoController.h */,
 				556C139E13B2181E003A68AA /* DisplayInfoController.m */,
+				556C137D13B216D8003A68AA /* DisplayInfo.h */,
+				556C137E13B216D8003A68AA /* DisplayInfo.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -196,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				256AC3DA0F4B6AC300CF3369 /* TestScreensAppDelegate.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* DisplayInfoAppDelegate.m in Sources */,
 				556C137F13B216D8003A68AA /* DisplayInfo.m in Sources */,
 				556C139F13B2181E003A68AA /* DisplayInfoController.m in Sources */,
 			);

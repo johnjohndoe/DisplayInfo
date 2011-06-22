@@ -1,6 +1,6 @@
 //
 //  DisplayInfo.m
-//  SlideShowApp
+//  DisplayInfo
 //
 //  Created by Tobias Preuss on 21.06.11.
 //  Copyright 2011 q-bus. All rights reserved.

@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'TestScreens' target in the 'TestScreens' project
+// Prefix header for all source files of the 'DisplayInfo' target in the 'DisplayInfo' project
 //
 
 #ifdef __OBJC__

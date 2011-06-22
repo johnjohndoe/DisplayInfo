@@ -1,14 +1,14 @@
 //
-//  TestScreensAppDelegate.m
-//  TestScreens
+//  DisplayInfoAppDelegate.m
+//  DisplayInfo
 //
 //  Created by Tobias Preuss on 22.06.11.
 //  Copyright 2011 Tobias Preuss. All rights reserved.
 //
 
-#import "TestScreensAppDelegate.h"
+#import "DisplayInfoAppDelegate.h"
 
-@implementation TestScreensAppDelegate
+@implementation DisplayInfoAppDelegate
 
 
 @synthesize window = m_window;
